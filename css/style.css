@@ -1,0 +1,33 @@
+* {
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 1.5em;
+}
+
+a {
+    color: darkred;
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title.recipe {
+    color: blue;;
+}
+
+.recipe {
+    color: orange;
+}
+
+ul {
+    list-style: none;
+}
+
+ul.recipe {
+    text-align: left;
+    padding: 10px;
+}
+
+.caption {
+    font-size: x-small;
+}
