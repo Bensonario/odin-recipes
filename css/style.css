@@ -1,18 +1,41 @@
 * {
     font-family: Verdana, Geneva, sans-serif;
     line-height: 1.5em;
+    margin: 0px;
+    padding: 0px;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color:aliceblue;
 }
 
 a {
-    color: darkred;
+    color: black;
+}
+hr {
+    height: 1px;
+    background: #ed1d61;
+    border: 0px;
+    margin: 10px 0px 25px;
 }
 
 .title {
+    font-family: Lobster, "Great vibes", Pacifico, "Dancing Script", cursive;
+    text-align: center;
+}
+
+.small-title {
     font-family: 'Courier New', Courier, monospace;
+    margin: 25px 0px;
 }
 
 .title.recipe {
-    color: blue;;
+    color: black;
 }
 
 .recipe {
@@ -23,11 +46,83 @@ ul {
     list-style: none;
 }
 
-ul.recipe {
+ul.recipe-list {
     text-align: left;
     padding: 10px;
 }
 
 .caption {
     font-size: x-small;
+}
+
+.container {
+    background-color:rgb(247, 249, 250);
+    max-width: 600px;
+    margin: auto;
+}
+
+.home-title {
+    margin: 10px 0px;
+}
+
+.recipe-home-image {
+    height: 100%;
+    width: 100%;
+}
+
+.recipe.image-container {
+    height: 300px;
+}
+
+.recipe-main-card {
+    padding: 10px;
+}
+
+.recipe-list li {
+    margin: 15px 0px;
+}
+
+.recipe-list a {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.recipe.image-box {
+    margin-bottom: 25px;
+}
+
+.ingredients{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 15px;
+    width: 270px;
+    float: left;
+}
+
+.recipe-img {
+    width: 300px;
+    height: 272px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.ingredients .title {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ingredients ul {
+    list-style: inside;
+}
+
+.img-disc {
+    margin: 25px 0px;
+}
+
+.steps {
+    padding-left: 20px;
 }
